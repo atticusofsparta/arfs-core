@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" modified="2024-02-19T20:45:54.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uVob8pmHUmQDbh0XC4U4" version="23.1.5" type="device">
+  <diagram name="Page-1" id="uoyiSZPYRA-nSg07-kY1">
+    <mxGraphModel dx="1848" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-1" target="eCCUP2K9m7sFuPutdg6m-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-1" value="Download" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-2" target="eCCUP2K9m7sFuPutdg6m-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-2" value="Upload" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-3" value="HTTP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-5" value="oracles" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-6" value="LevelDB Cache" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-7" value="LMDB Cache" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-8" target="eCCUP2K9m7sFuPutdg6m-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-8" target="eCCUP2K9m7sFuPutdg6m-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-8" target="eCCUP2K9m7sFuPutdg6m-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-8" target="eCCUP2K9m7sFuPutdg6m-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-8" target="eCCUP2K9m7sFuPutdg6m-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-8" value="Core" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="315" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-9" target="eCCUP2K9m7sFuPutdg6m-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="790" />
+              <mxPoint x="960" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-9" target="eCCUP2K9m7sFuPutdg6m-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="790" />
+              <mxPoint x="1250" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-9" target="eCCUP2K9m7sFuPutdg6m-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="790" />
+              <mxPoint x="1560" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-9" target="eCCUP2K9m7sFuPutdg6m-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="790" />
+              <mxPoint x="1900" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-9" value="plugins" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="610" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-10" value="&lt;h1&gt;ArFS Core&lt;/h1&gt;&lt;p&gt;The ArFS core is responsible for constructing drive, folder, and file state, and contains the client configurations for network and user info.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-11" value="&lt;h1&gt;HTTP&lt;/h1&gt;&lt;p&gt;The HTTP package is responsible for managing requests to Arweave Gateway REST and GraphQL api&#39;s&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="50" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-13" value="&lt;h1&gt;LevelDB Cache&lt;/h1&gt;&lt;p&gt;A cache provider for the browser&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-14" value="&lt;h1&gt;LMDB Cache&lt;/h1&gt;&lt;div&gt;A cache provider for Node JS environment&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="340" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-15" value="&lt;h1&gt;ArFS Upload&lt;/h1&gt;&lt;p&gt;The upload package contains providers for constructing and uploading files to the arweave network&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="90" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-16" value="&lt;h1&gt;ArFS Download&lt;/h1&gt;&lt;p&gt;The upload package contains providers for downloading and decrypting files from the arweave network&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="270" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-24" value="Auth" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-1" target="eCCUP2K9m7sFuPutdg6m-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="360" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-26" value="&lt;h1&gt;ArFS Auth&lt;/h1&gt;&lt;div&gt;Auth provides a variety of utilities including:&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Drive and file key generation&lt;/li&gt;&lt;li&gt;Encryption&lt;/li&gt;&lt;li&gt;Decryption&lt;/li&gt;&lt;li&gt;Transaction signing&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="450" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-2" target="eCCUP2K9m7sFuPutdg6m-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="374" as="sourcePoint" />
+            <mxPoint x="360" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eCCUP2K9m7sFuPutdg6m-24" target="eCCUP2K9m7sFuPutdg6m-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="360" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-35" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pricing Oracles&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;line-height: 50%;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Pricing oracles provide information from various providers such as redstone and CoinGecko&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-36" value="&lt;h1 style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plugin System&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;The Plugin System allows for callbacks to be executed, providing progress callbacks external functions.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="620" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-37" value="Download Progress" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-39" value="Upload Progress" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-40" value="Bundling Progress" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-41" value="Estimated Sync Time" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="920" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-52" value="&lt;h1 style=&quot;line-height: 60%;&quot;&gt;Sync Estimate&lt;/h1&gt;&lt;h1 style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;The Sync Estimate plugin allows for displaying the estimated time to sync a drive.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="620" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-53" value="&lt;h1 style=&quot;line-height: 60%;&quot;&gt;Bundling Progess&lt;/h1&gt;&lt;h1 style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;The Bundling Progress plugin allows for displaying the amount of items have been process in an upload task&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="620" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-54" value="&lt;h1 style=&quot;line-height: 60%;&quot;&gt;Download Progress&lt;/h1&gt;&lt;h1 style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;The Download Progress plugin allows for displaying the the percentage of the file that has been downloaded.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="620" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCCUP2K9m7sFuPutdg6m-55" value="&lt;h1 style=&quot;line-height: 60%;&quot;&gt;Upload Progress&lt;/h1&gt;&lt;h1 style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;The Upload Progress plugin allows for displaying the amount a file has been uploaded.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="620" width="210" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
