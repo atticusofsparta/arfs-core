@@ -17,3 +17,4 @@
 export const UUID_REGEX = new RegExp(
   '^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$',
 );
+export const ARWEAVE_TX_REGEX = new RegExp('^[a-zA-Z0-9-_s+]{43}$');

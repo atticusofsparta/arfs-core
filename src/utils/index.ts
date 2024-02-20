@@ -15,3 +15,5 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 export * from './uuid.js';
+export * from './equatable.js';
+export * from './transaction.js';

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-export * from './drives';
-export * from './folders';
-export * from './files';
-export * from './entity';
+export * from './drives/index.js';
+export * from './folders/index.js';
+export * from './files/index.js';
+export * from './common/index.js';

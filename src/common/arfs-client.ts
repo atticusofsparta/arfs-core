@@ -14,11 +14,27 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-import { UUID } from '../utils/uuid.js';
+import { TransactionInterface } from 'arweave/node/lib/transaction.js';
 
-export interface ArFSClientInterface {
-  getDrive(id: UUID): Promise<any>;
-  getFolder(): Promise<any>;
-  getFile(): Promise<any>;
+import { ArweaveTransactionID, UUID } from '../utils/index.js';
+
+export interface ArFSManagerInterface {
+  move: (
+    entityId: UUID,
+    newParentFolderId: UUID,
+  ) => Promise<TransactionInterface>;
+  rename: (entityId: UUID, newName: string) => Promise<TransactionInterface>;
+  delete: (entityId: UUID) => Promise<TransactionInterface>; // do-not-store tag. Evaluator will treat as deleted.
+  hide: (entityId: UUID, hidden: boolean) => Promise<TransactionInterface>; // `hidden` prop wil set the `hidden` property of the entity in the JSON metadata.
+  license: (
+    entityId: UUID,
+    license: ArweaveTransactionID, // License transaction ID.
+  ) => Promise<TransactionInterface>; // asserts license based on ANS-105 spec.
+}
+
+export interface ArFSClientInterface extends ArFSManagerInterface {
+  getDrive(driveId: UUID): Promise<any>;
+  getFolder(folderId: UUID): Promise<any>;
+  getFile(fileId: UUID): Promise<any>;
 }
 export class DefaultClient {}
