@@ -21,6 +21,7 @@ import { ReadableStream } from 'stream/web';
 
 import { FailedRequestError } from './errors.js';
 import { createAxiosInstance } from './http-client.js';
+import { ArFSLogger } from './logger.js';
 import { ArFSLoggerInterface, HTTPServiceInterface } from './types.js';
 
 export class AxiosHTTPService implements HTTPServiceInterface {
@@ -30,11 +31,11 @@ export class AxiosHTTPService implements HTTPServiceInterface {
   constructor({
     url,
     retryConfig,
-    logger,
+    logger = new ArFSLogger(),
   }: {
     url: string;
     retryConfig?: IAxiosRetryConfig;
-    logger: ArFSLoggerInterface;
+    logger?: ArFSLoggerInterface;
   }) {
     this.logger = logger;
     this.axios = createAxiosInstance({

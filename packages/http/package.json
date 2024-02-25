@@ -46,8 +46,8 @@
     "example:web": "yarn build:web && cp -r bundles/* examples/web && http-server --port 8080 --host -o examples/web"
   },
   "dependencies": {
-    "axios": "^1.6.7",
-    "axios-retry": "^4.0.0",
+    "axios": "1.4.0",
+    "axios-retry": "3.7.0",
     "winston": "^3.11.0"
   },
   "devDependencies": {
@@ -55,6 +55,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20.4.8",
     "@types/sinon": "^10.0.15",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
@@ -78,6 +79,7 @@
     "rimraf": "^5.0.1",
     "semantic-release": "^21.0.7",
     "sinon": "^15.2.0",
+    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
