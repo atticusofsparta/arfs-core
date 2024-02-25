@@ -1,6 +1,6 @@
 # ARFS Core
 
-This is the home of the ARFS Core SDK, a tool for resolving ArFS drives, files, and folders for private and public entities. Fully compliant with the ArFS Specification from ar.io.
+This is the home of the Daemon Gate ARFS Core SDK, a tool for resolving ArFS drives, files, and folders for private and public entities. Fully compliant with the ArFS Specification from ar.io.
 
 ## ArFS core packages
 

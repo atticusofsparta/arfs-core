@@ -16,4 +16,9 @@
  */
 
 // eslint-disable-next-line
-export class DefaultClient {}
+export * from './http.js';
+export * from './http-client.js';
+export * from './logger.js';
+export * from './types.js';
+export * from './version.js';
+export * from './errors.js';
