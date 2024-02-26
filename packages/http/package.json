@@ -46,6 +46,7 @@
     "example:web": "yarn build:web && cp -r bundles/* examples/web && http-server --port 8080 --host -o examples/web"
   },
   "dependencies": {
+    "@apollo/client": "^3.9.5",
     "axios": "1.4.0",
     "axios-retry": "3.7.0",
     "winston": "^3.11.0"
