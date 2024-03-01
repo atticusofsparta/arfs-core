@@ -1,3 +1,5 @@
+import { HTTPServiceInterface } from '@arfs-core/http';
+
 import { ArweaveTransactionID } from '../utils/transaction.js';
 import { UUID } from '../utils/uuid.js';
 
@@ -26,9 +28,9 @@ export interface ArFSExplorerInterface {
 }
 
 export class ArFSExplorer implements ArFSExplorerInterface {
-  http: any;
+  http: HTTPServiceInterface;
   cache: any;
-  constructor({ cache, http }: { cache: any; http: any }) {
+  constructor({ cache, http }: { cache: any; http: HTTPServiceInterface }) {
     this.http = http;
     this.cache = cache;
   }

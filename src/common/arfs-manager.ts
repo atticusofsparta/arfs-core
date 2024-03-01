@@ -1,3 +1,4 @@
+import { HTTPServiceInterface } from '@arfs-core/http';
 import { TransactionInterface } from 'arweave/node/lib/transaction.js';
 
 import { ArweaveTransactionID } from '../utils/transaction.js';
@@ -59,8 +60,8 @@ export interface ArFSManagerInterface extends ArFSExplorerInterface {
 }
 
 export class ArFSManager extends ArFSExplorer implements ArFSManagerInterface {
-  http: any;
-  constructor({ cache, http }: { cache: any; http: any }) {
+  http: HTTPServiceInterface;
+  constructor({ cache, http }: { cache: any; http: HTTPServiceInterface }) {
     super({ cache, http });
     this.http = http;
   }

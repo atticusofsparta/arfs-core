@@ -1,8 +1,10 @@
 {
-  "name": "@ardrive/node-sdk-client",
+  "name": "@arfs-core/sdk",
   "version": "0.0.1",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/types/index.d.ts",
+  "browser": "./bundles/web.bundle.min.js",
   "type": "module",
   "files": [
     "lib",
@@ -11,26 +13,15 @@
     "README.md"
   ],
   "author": {
-    "name": "Permanent Data Solutions Inc",
-    "email": "info@ardrive.io",
-    "website": "https://ardrive.io"
+    "name": "atticusofsparta",
+    "email": "atticusofsparta@protonmail.com",
+    "website": "https://github.com/atticusofsparta"
   },
   "exports": {
     ".": {
-      "import": "./lib/esm/node/index.js",
-      "require": "./lib/cjs/node/index.js",
-      "types": "./lib/types/node/index.d.ts",
-      "browser": "./bundles/web.bundle.min.js"
-    },
-    "./node": {
-      "import": "./lib/esm/node/index.js",
-      "require": "./lib/cjs/node/index.js",
-      "types": "./lib/types/node/index.d.ts"
-    },
-    "./web": {
-      "import": "./bundles/web.bundle.min.js",
-      "require": "./bundles/web.bundle.min.js",
-      "types": "./lib/types/web/index.d.ts",
+      "import": "./lib/esm/index.js",
+      "require": "./lib/cjs/index.js",
+      "types": "./lib/types/index.d.ts",
       "browser": "./bundles/web.bundle.min.js"
     }
   },
@@ -41,16 +32,15 @@
   "scripts": {
     "build:web": "node bundle.mjs",
     "build:esm": "yarn tsc -p tsconfig.json",
-    "build:cjs": "yarn tsc -p tsconfig.cjs.json && echo '{\"type\": \"commonjs\"}' > lib/cjs/package.json",
+    "build:cjs": "yarn tsc -p tsconfig.cjs.json && echo \"{\\\"type\\\": \\\"commonjs\\\"}\" > lib/cjs/package.json",
     "build:types": "yarn tsc -p tsconfig.types.json",
     "build": "yarn clean && yarn build:web && yarn build:esm && yarn build:cjs && yarn build:types",
     "clean": "rimraf [ lib coverage bundles ]",
-    "postinstall": "husky install",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "test": "c8 mocha --config .mocharc",
+    "test": "c8 jest .",
     "prepare": "husky install",
     "example:mjs": "yarn build:esm && node examples/node/index.mjs",
     "example:cjs": "yarn build:esm && node examples/node/index.mjs",
@@ -87,6 +77,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "http-server": "^14.1.1",
     "husky": "^8.0.3",
+    "jest": "^29.7.0",
     "mocha": "^10.2.0",
     "node-stdlib-browser": "^1.2.0",
     "prettier": "^3.0.2",
@@ -96,5 +87,5 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
-  "repository": "https://github.com/ardriveapp/node-sdk-template.git"
+  "repository": "https://github.com/atticusofsparta/arfs-core.git"
 }

@@ -14,6 +14,8 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+import { AxiosHTTPService, HTTPServiceInterface } from '@arfs-core/http';
+
 import { ArweaveTransactionID } from '../utils/transaction.js';
 import { UUID } from '../utils/uuid.js';
 import { ArFSExplorerInterface } from './arfs-explorer.js';
@@ -27,9 +29,15 @@ export interface ArFSClientInterface
 }
 
 export class ArFSClient extends ArFSManager implements ArFSClientInterface {
-  http: any;
+  http: HTTPServiceInterface;
   cache: any;
-  constructor({ cache, http }: { cache: any; http?: any }) {
+  constructor({
+    cache,
+    http = new AxiosHTTPService({ url: 'https://arweave.net' }),
+  }: {
+    cache: any;
+    http?: HTTPServiceInterface;
+  }) {
     super({ cache, http });
     this.http = http;
   }
